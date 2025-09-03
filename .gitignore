@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+touch src/.gitkeep
+git add src/.gitkeep
+git commit -m "Add .gitkeep to track empty src folder"
+git push
